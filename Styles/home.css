@@ -19,7 +19,7 @@
 .my_login {
     color: black;
     margin-left: 20px;
-    font-size:32px;
+    font-size: 24px;
 }
 
 .my_search {
@@ -31,6 +31,7 @@
 
 
 .my_results {
+    font-size: 11px;
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;

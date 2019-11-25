@@ -1,0 +1,24 @@
+.my_areaholder {
+    display: flex;
+    justify-content: space-evenly;
+}
+.my_longtext {
+    width: 80%;
+    height: 10rem;
+    background-color:
+    transparent;
+}
+.my_shorttext {
+    width: 100%;
+    height: 70%;
+    background-color:
+    transparent;
+}
+button {
+    width: 100%;
+    height: 30%;
+}
+
+textarea {
+    resize: none;
+}

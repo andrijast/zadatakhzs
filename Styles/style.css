@@ -15,7 +15,7 @@
     width: 150px;
 }
 .my_icon:hover {
-    opacity:0.8;
+    opacity:0.7;
 }
 
 .my_results {
@@ -46,4 +46,8 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+.my_newevent {
+
 }
