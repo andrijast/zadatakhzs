@@ -5,9 +5,9 @@ function error() {
     exit();
 }
 
-if (isset($_POST['register-submit'])) {
+if (isset($_POST['register-submit']) || true) {
 
-    require ROOT.'/zadatakhzs/templates/connect.php';
+    require $_SERVER['DOCUMENT_ROOT'].'/zadatakhzs/templates/connect.php';
 
     $firstname = $_POST['fname'];
     $lastname = $_POST['lname'];
@@ -19,5 +19,12 @@ if (isset($_POST['register-submit'])) {
     if (empty($firstname) || empty($lastname) || empty($username) || empty($email) || empty($password) || empty($pass_re)) {
         error();
     }
+    if ($password != $pass_re) {
+        error();
+    }
 
+}
+
+else {
+    echo "Pogresan Ulaz";
 }

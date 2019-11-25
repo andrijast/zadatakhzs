@@ -17,7 +17,7 @@
             <input type="text" id="user" name="user" placeholder="Korisnicko ime">
             <input type="password" id="pass" name="pass" placeholder="Lozinka">
 
-            <input type="submit" class="btn" name="login-submit" value="Uloguj se">
+            <button type="submit" class="btn" name="login-submit">Uloguj se</button>
         </form>
     </div>
 
@@ -32,7 +32,7 @@
             <input type="password" id="pass" name="pass" placeholder="Lozinka">
             <input type="password" id="pass-re" name="pass-re" placeholder="Ukucajte lozinku ponovo">
 
-            <input type="submit" class="btn" name="register-submit" value="Registruj se">
+            <button type="submit" class="btn" name="register-submit">Registruj se</button>
         </form>
     </div>
 
@@ -41,7 +41,7 @@
     <!-- Logout -->
     <div class="frm">
         <form action="logout_process.php" method="post">
-            <input type="submit" class="btn" name="logout-submit" value="Izloguj se">
+            <button type="submit" class="btn" name="logout-submit">Izloguj se</button>
         </form>
     </div>
 
