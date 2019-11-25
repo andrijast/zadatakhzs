@@ -24,18 +24,6 @@
         <a href="tabs/konkursi.php"><img src="../res/images/TakKonkursi.jpg" class="my_icon" name="Konkursi"></a>
         <a href="tabs/akcije.php"><img src="../res/images/HumAkcije.jpg" class="my_icon" name="Akcije"></a>
         <a href="tabs/feedback.php"><img src="../res/images/AnketeForumi.jpg" class="my_icon" name="Forum"></a>
-        <style>
-            .blue { margin-left: 10px; }
-        </style>
-        <script>
-            $( "a" ).hover(
-                function() {
-                    $(this).addClass('blue');
-                }, function() {
-                    $(this).removeClass('blue'); 
-                }
-            );
-        </script>
     </div>
 </body>
 
