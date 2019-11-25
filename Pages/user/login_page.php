@@ -13,9 +13,9 @@
 
     <!-- Login -->
     <div class="frm">
-        <form action="login_process.php" methdon="post">
-            <input type="text" id="user" name="user" placeholder="Korisnicko ime">
-            <input type="password" id="pass" name="pass" placeholder="Lozinka">
+        <form action="/../zadatakhzs/pages/user/login_process.php" method="post">
+            <input type="text" name="user" placeholder="Korisnicko ime">
+            <input type="password" name="pass" placeholder="Lozinka">
 
             <button type="submit" class="btn" name="login-submit">Uloguj se</button>
         </form>
@@ -24,13 +24,13 @@
 
     <!-- Register -->
     <div class="frm">
-        <form action="register_process.php" methdon="post">
-            <input type="text" id="fname" name="fname" placeholder="Ime">
-            <input type="text" id="lname" name="lname" placeholder="Prezime">
-            <input type="text" id="user" name="user" placeholder="Korisnicko ime">
-            <input type="email" id="email" name="email" placeholder="Email">
-            <input type="password" id="pass" name="pass" placeholder="Lozinka">
-            <input type="password" id="pass-re" name="pass-re" placeholder="Ukucajte lozinku ponovo">
+        <form action="/../zadatakhzs/pages/user/register_process.php" method="post">
+            <input type="text" name="fname" placeholder="Ime">
+            <input type="text" name="lname" placeholder="Prezime">
+            <input type="text" name="user" placeholder="Korisnicko ime">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="pass" placeholder="Lozinka">
+            <input type="password" name="pass-re" placeholder="Ukucajte lozinku ponovo">
 
             <button type="submit" class="btn" name="register-submit">Registruj se</button>
         </form>
@@ -40,7 +40,7 @@
 
     <!-- Logout -->
     <div class="frm">
-        <form action="logout_process.php" method="post">
+        <form action="/../zadatakhzs/pages/user/logout_process.php" method="post">
             <button type="submit" class="btn" name="logout-submit">Izloguj se</button>
         </form>
     </div>
