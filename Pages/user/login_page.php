@@ -7,6 +7,10 @@
 </head>
 
 <body>
+
+    <?php include ROOT.'zadatakhzs/templates/header.php' ?>
+
+
     <!-- Login -->
     <div id="frm">
         <form action="login_process.php" methdon="POST">
@@ -18,6 +22,7 @@
             <input type="submit" class="btn" value="Login">
         </form>
     </div>
+
 
     <!-- Register -->
     <div id="frm">
@@ -34,6 +39,10 @@
             <input type="submit" class="btn" value="Register">
         </form>
     </div>
+
+
+    <?php include ROOT.'zadatakhzs/templates/footer.php' ?>
+
 </body>
 
 </html>
