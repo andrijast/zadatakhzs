@@ -1,17 +1,15 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html>
 
 <head>
-    <meta charset='UTF-8'/>
-    <title>Filmovi Sajmovi</title>
-    <link rel='stylesheet' href='style.css'/>
+    <?php include '../templates/head.php' ?>
+    <title>Name - Login</title>
 </head>
 
 <body>
     <div>
         Login...
     </div>
-
 </body>
 
 </html>
