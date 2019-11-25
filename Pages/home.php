@@ -10,7 +10,7 @@
 <body>
     <!-- Top Navigation -->
     <div class="my_topnav">
-        <a href="/zadatakhzs/pages/user/login_page.php" class="my_login">Login</a>
+        <a href="/zadatakhzs/pages/user/login_page.php" class="my_login"> Login </a>
         <form class="my_search" method="get" action="">
             <input type="text" name="search" id="search" value="trazi..."/>
             <input type="submit" style="display: none" />

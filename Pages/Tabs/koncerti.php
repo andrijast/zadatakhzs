@@ -9,7 +9,7 @@
 <body>
     <?php include ROOT.'/zadatakhzs/templates/header.php' ?>
     <div>
-        <?php echo str_replace(".php", "", basename($_SERVER["SCRIPT_NAME"])); ?> 
+        <?php include ROOT.'/zadatakhzs/templates/tab.php'; ?>
     </div>
     <?php include ROOT.'/zadatakhzs/templates/footer.php'; ?>
 </body>

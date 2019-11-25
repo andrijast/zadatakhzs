@@ -17,7 +17,9 @@
 }
 
 .my_login {
+    color: black;
     margin-left: 20px;
+    font-size:32px;
 }
 
 .my_search {
