@@ -7,10 +7,11 @@
 </head>
 
 <body>
+<?php include ROOT.'/zadatakhzs/templates/navbar.php' ?>
     <div>
-        <?php include ROOT.'/zadatakhzs/templates/navbar.php' ?>
-        Konkursi
+        <?php echo str_replace(".php", "", basename($_SERVER["SCRIPT_NAME"])); ?> 
     </div>
+    <?php include ROOT.'/zadatakhzs/templates/footer.php'; ?>
 </body>
 
 </html>

@@ -40,7 +40,7 @@
 		</form>
 	</section>
 
-	<?php include '../templates/footer.php'; ?>
+	<?php include ROOT.'/zadatakhzs/templates/footer.php'; ?>
 	
 </body>
 
