@@ -13,14 +13,14 @@
 
     <!-- Opis -->
     <div class="my_newevent">
-        <form action="submitEvent.php" methdon="post">
-            <input type="text" id="" name="ime" placeholder="ime">
-            <input type="text" id="user" name="tip" placeholder="tip">
+        <form action="/zadatakhzs/pages/tabs/submitEvent.php" methdon="post">
+            <input type="text" name="ime" placeholder="ime">
+            <input type="text" name="tip" placeholder="tip">
             <div class="my_areaholder">
-                <textarea id="opis"  name="opis"  placeholder="opis"        class="my_longtext"></textarea>
+                <textarea  name="opis"  placeholder="opis"        class="my_longtext"></textarea>
                 <div>
-                    <textarea id="kopis" name="kopis" placeholder="kratak opis" class="my_shorttext"></textarea>
-                    <button type="submit" class="btn" name="login-submit" class="my_button">Posalji</button>
+                    <textarea name="kopis" placeholder="kratak opis" class="my_shorttext"></textarea>
+                    <button type="submit" name="event-submit" class="my_button btn">Posalji</button>
                 </div>            
             </div>
         </form>
