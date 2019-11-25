@@ -3,11 +3,11 @@
 
 <head>
     <?php include $_SERVER['DOCUMENT_ROOT'].'/zadatakhzs/templates/head.php' ?>
-    <title>Name - Login</title>
+    <title>Name - Mapa</title>
 </head>
 
 <body>
-<?php include ROOT.'/zadatakhzs/templates/navbar.php' ?>
+    <?php include ROOT.'/zadatakhzs/templates/header.php' ?>
     <div>
         <?php echo str_replace(".php", "", basename($_SERVER["SCRIPT_NAME"])); ?> 
     </div>
