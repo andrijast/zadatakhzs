@@ -15,21 +15,6 @@
             <input type="text" name="search" id="search" value="trazi..."/>
             <input type="submit" style="display: none" />
         </form>
-        <script>
-            (function() {
-                var search = document.getElementById('age');
-                search.addEventListener('keypress', function(event) {
-                    if (event.keyCode == 13) {
-                        event.preventDefault();
-                        if (age.value > 20) {
-                            document.getElementById('adult').click();
-                        } else {
-                            document.getElementById('child').click();
-                        }
-                    }
-                });
-            }());
-        </script>
     </div>
     <div class="my_main">
         <!-- Menu Bar -->
