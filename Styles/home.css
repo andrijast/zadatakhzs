@@ -1,23 +1,52 @@
 .my_topnav {
     display: flex;
-    max-height: 40px;
+    justify-content: space-between;
     width: 100%;
     background: pink;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+}
+
+.my_textbox {
+    height: 20px;
+}
+
+.my_button {
+    background: plum;
+    border: none;
+    height: 20px;
 }
 
 .my_login {
     margin-left: 20px;
-    width: 20%;
-    height: auto;
-    display: flex;
-    justify-content: flex-start;
 }
 
 .my_search {
-    width: 50%;
-    height: 50%;
-    margin-right: 20px;
+    width: 30%;
+    margin-right: 1%;
     display: flex;
     justify-content: flex-end;
+}
+
+
+.my_results {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    background: skyblue;
+    border: none;
+    width: 30%;
+    height: auto;
+    margin-right: 1%;
+}
+
+.my_menu {
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.my_main {
+    display: flex;
+    justify-content: space-between;
 }

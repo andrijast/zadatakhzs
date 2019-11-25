@@ -1,9 +1,17 @@
+
 .my_navbar {
     display: flex;
+    justify-content: space-between;
     max-height: 40px;
     width: 100%;
     background: pink;
-    margin-bottom: 2%;
+    margin-bottom: 1%;
+}
+
+.my_tabs {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
 }
 
 .my_navtab {
@@ -12,5 +20,10 @@
     flex-wrap: nowrap;
     margin-left: 20px;
     margin-right: 20px;
-    width: 10%;
+}
+
+.my_profile {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
 }
