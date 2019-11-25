@@ -8,8 +8,8 @@
 
 .my_login {
     margin-left: 20px;
-    width: 50%;
-    height: 50%;
+    width: 20%;
+    height: auto;
     display: flex;
     justify-content: flex-start;
 }
@@ -37,8 +37,7 @@
     flex-wrap: wrap;
 }
 .my_icon {
-    width: 150px;
-    padding-left: 50px;
+    width: 100px;
 }
 .my_results {
     display: flex;

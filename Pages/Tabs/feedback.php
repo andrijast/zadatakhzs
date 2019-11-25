@@ -15,13 +15,13 @@
 <html>
 
 <head>
-	<?php include '../templates/head.php' ?>
+	<?php include '../../templates/head.php' ?>
     <title>Ostavite povratnu informaciju</title>
 </head>
 	
 <body>
 
-	<?php include '../templates/header.php'; ?>
+	<?php include '../../templates/navbar.php'; ?>
 
 	<section class="container grey-text">
 		<h4 class="center">Ostavite povratnu informaciju</h4>
