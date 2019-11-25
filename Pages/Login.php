@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <?php include '../templates/head.php' ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/zadatakhzs/templates/head.php' ?>
     <title>Name - Login</title>
 </head>
 

@@ -1,0 +1,23 @@
+.my_topnav {
+    display: flex;
+    max-height: 40px;
+    width: 100%;
+    background: pink;
+    margin-bottom: 2%;
+}
+
+.my_login {
+    margin-left: 20px;
+    width: 20%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.my_search {
+    width: 50%;
+    height: 50%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+}

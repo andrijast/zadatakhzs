@@ -2,13 +2,13 @@
 <html>
 
 <head>
-    <?php include '../../templates/head.php' ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/zadatakhzs/templates/head.php' ?>
     <title>Name - Login</title>
 </head>
 
 <body>
     <div>
-        <?php include '../../templates/navbar.php' ?>
+        <?php include ROOT.'/zadatakhzs/templates/navbar.php' ?>
         Akcije
     </div>
 </body>

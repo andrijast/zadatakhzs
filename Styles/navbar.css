@@ -1,0 +1,16 @@
+.my_navbar {
+    display: flex;
+    max-height: 40px;
+    width: 100%;
+    background: pink;
+    margin-bottom: 2%;
+}
+
+.my_navtab {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 10%;
+}

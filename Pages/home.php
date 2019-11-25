@@ -2,14 +2,20 @@
 <html>
 
 <head>
-    <?php include '../templates/head.php' ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/zadatakhzs/templates/head.php' ?>
+    <link rel='stylesheet' href='/zadatakhzs/styles/home.css'/>
     <title>Name - Home Page</title>
 </head>
 
 <body>
-
-    <?php include '../templates/navbar.php' ?>
-
+    <!-- Top Navigation -->
+    <div class="my_topnav">
+        <a href="/zadatakhzs/pages/login.php" class="my_login">Login</a>
+        <form class="my_search" method="get" action="">
+            <input type="text" class="textIn">
+            <input type="submit" value="Trazi" class="my_button">
+        </form>
+    </div>
     <!-- Menu Bar -->
     <div class="my_menu">
         <a href="tabs/desavanja.php"><img src="../res/images/FilmoviSajmovi.jpg" class="my_icon"></a>

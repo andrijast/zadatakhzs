@@ -1,10 +1,13 @@
 
 <!-- Top Navigation -->
-<div class="my_topnav">
-    <a href="/zadatakhzs/pages/login.php" class="my_login">Login</a>
-    <a href="/zadatakhzs/pages/home.php" class="my_login">Home</a>
-    <form class="my_search" method="get" action="">
-        <input type="text" class="textIn">
-        <input type="submit" value="Trazi" class="my_button">
-    </form>
+<link rel='stylesheet' href='/zadatakhzs/styles/navbar.css'/>
+<div class="my_navbar">
+    <a href="/zadatakhzs/pages/home.php" class="my_navtab">Pocetna</a>
+    <a href="/zadatakhzs/pages/tabs/desavanja.php" class="my_navtab">Desavanja</a>
+    <a href="/zadatakhzs/pages/tabs/koncerti.php" class="my_navtab">Koncerti</a>
+    <a href="/zadatakhzs/pages/tabs/mesta.php" class="my_navtab">Mapa</a>
+    <a href="/zadatakhzs/pages/tabs/konkursi.php" class="my_navtab">Konkursi</a>
+    <a href="/zadatakhzs/pages/tabs/akcije.php" class="my_navtab">Akcije</a>
+    <a href="/zadatakhzs/pages/tabs/feedback.php" class="my_navtab">Forum</a>
+</div>
 </div>
