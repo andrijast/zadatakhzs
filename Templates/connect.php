@@ -1,11 +1,13 @@
 <?php
 
-$adresaHosta = "localhost";
-$korisnickoIme = "root";
-$sifra = "";
-$imeBaze = "fakultet";
-$konekcija = new mysqli($adresaHosta, $korisnickoIme, $sifra, $imeBaze);
-if ($konekcija->connect_errno) {
-    printf("Konekcija neuspešna: %s\n", $konekcija->connect_error);
-    exit();
+$serverName = "localhost";
+$dbUsername = "root";
+$dbPassword = "";
+$dbName = "budiindb";
+
+
+$connection = mysqli_connect($serverName, $dbUsername, $dbPassword, $dbName);
+
+if (!$connection) {
+    die("Connection failed: ".mysqli_connect_error());
 }
