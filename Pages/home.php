@@ -12,7 +12,7 @@
     <div class="my_topnav">
         <a href="/zadatakhzs/pages/user/login_page.php" class="my_login"> Login </a>
         <a href="/zadatakhzs/pages/tabs/dodajEvent.php" class="my_login"> Novi Dogadjaj </a>
-        <form class="my_search" method="get" action="">
+        <form class="my_search" id="search">
             <input type="text" name="search" id="search" value="trazi..."/>
             <input type="submit" style="display: none" />
         </form>
