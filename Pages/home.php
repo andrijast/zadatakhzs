@@ -18,16 +18,25 @@
     </div>
     <!-- Menu Bar -->
     <div class="my_menu">
-        <a href="tabs/desavanja.php"><img src="../res/images/FilmoviSajmovi.jpg" class="my_icon"></a>
-        <a href="tabs/koncerti.php"><img src="../res/images/KoncertiIzlozbe.jpg" class="my_icon"></a>
-        <a href="tabs/mapa.php"><img src="../res/images/Mapa.jpg" class="my_icon"></a>
-        <a href="tabs/konkursi.php"><img src="../res/images/TakKonkursi.jpg" class="my_icon"></a>
-        <a href="tabs/akcije.php"><img src="../res/images/HumAkcije.jpg" class="my_icon"></a>
-        <a href="tabs/feedback.php"><img src="../res/images/AnketeForumi.jpg" class="my_icon"></a>
+        <a href="tabs/desavanja.php"><img src="../res/images/FilmoviSajmovi.jpg" class="my_icon" name="Desavanja"></a>
+        <a href="tabs/koncerti.php"><img src="../res/images/KoncertiIzlozbe.jpg" class="my_icon" name="Koncerti"></a>
+        <a href="tabs/mapa.php"><img src="../res/images/Mapa.jpg" class="my_icon" name="Mapa"></a>
+        <a href="tabs/konkursi.php"><img src="../res/images/TakKonkursi.jpg" class="my_icon" name="Konkursi"></a>
+        <a href="tabs/akcije.php"><img src="../res/images/HumAkcije.jpg" class="my_icon" name="Akcije"></a>
+        <a href="tabs/feedback.php"><img src="../res/images/AnketeForumi.jpg" class="my_icon" name="Forum"></a>
+        <style>
+            .blue { margin-left: 10px; }
+        </style>
+        <script>
+            $( "a" ).hover(
+                function() {
+                    $(this).addClass('blue');
+                }, function() {
+                    $(this).removeClass('blue'); 
+                }
+            );
+        </script>
     </div>
-
-    <?php include '../templates/footer.php' ?>
-    
 </body>
 
 </html>

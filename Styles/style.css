@@ -14,6 +14,10 @@
 .my_icon {
     width: 150px;
 }
+.my_icon:hover {
+    opacity:0.8;
+}
+
 .my_results {
     display: flex;
     width: 10%;
