@@ -3,45 +3,50 @@
 
 <head>
     <?php include $_SERVER['DOCUMENT_ROOT'].'/zadatakhzs/templates/head.php' ?>
-    <title>Name - Login</title>
+    <title><?php echo TITLE ?> - Login</title>
 </head>
 
 <body>
 
-    <?php include ROOT.'zadatakhzs/templates/header.php' ?>
+    <?php include ROOT.'/zadatakhzs/templates/header.php' ?>
 
 
     <!-- Login -->
-    <div id="frm">
+    <div class="frm">
         <form action="login_process.php" methdon="POST">
-            <label>Username</label>
-            <input type="text" id="user" name="user">
-            <label>Password</label>
-            <input type="password" id="pass" name="pass">
+            <input type="text" id="user" name="user" placeholder="Korisnicko ime">
+            <input type="password" id="pass" name="pass" placeholder="Lozinka">
 
-            <input type="submit" class="btn" value="Login">
+            <input type="submit" class="btn" name="login-submit" value="Uloguj se">
         </form>
     </div>
 
 
     <!-- Register -->
-    <div id="frm">
+    <div class="frm">
         <form action="register_process.php" methdon="POST">
-            <label>Username</label>
-            <input type="text" id="user" name="user">
-            <label>Email</label>
-            <input type="email" id="email" name="email">
-            <label>Lozinka</label>
-            <input type="password" id="pass" name="pass">
-            <label>Ukucajte lozinku ponovo</label>
-            <input type="password" id="pass_re" name="pass_re">
+            <input type="text" id="name" name="name" placeholder="Ime">
+            <input type="text" id="lastname" name="lastname" placeholder="Prezime">
+            <input type="text" id="user" name="user" placeholder="Korisnicko ime">
+            <input type="email" id="email" name="email" placeholder="Email">
+            <input type="password" id="pass" name="pass" placeholder="Lozinka">
+            <input type="password" id="pass_re" name="pass_re" placeholder="Ukucajte lozinku ponovo">
 
-            <input type="submit" class="btn" value="Register">
+            <input type="submit" class="btn" name="register-submit" value="Registruj se">
+        </form>
+    </div>
+
+    <br>
+
+    <!-- Logout -->
+    <div class="frm">
+        <form action="logout_process.php" method="POST">
+            <input type="submit" class="btn" name="logout-submit" value="Izloguj se">
         </form>
     </div>
 
 
-    <?php include ROOT.'zadatakhzs/templates/footer.php' ?>
+    <?php include ROOT.'/zadatakhzs/templates/footer.php' ?>
 
 </body>
 
